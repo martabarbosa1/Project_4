@@ -2,7 +2,7 @@
 
 # Context 
 We want to make people read more. That is why our webscraping project is about data on books.
-First, we used the dataset of GoodReads, the world's largest site for readers and book recommendations:https://www.kaggle.com/datasets/bahramjannesarr/goodreads-book-datasets-10m 
+First, we used the dataset of GoodReads, the world's largest site for readers and book recommendations: https://www.kaggle.com/datasets/bahramjannesarr/goodreads-book-datasets-10m 
 The prices and the format of the books were missing, that is why we webscrapped Amazon to get more valuable information.
 We decided to just work on the books with more than 500 votes to avoid the books with 1 vote and 5 stars, so non-representative. 
 
@@ -51,3 +51,14 @@ The second cleaning (clean_data2.csv) took place, and were made the follow steps
 We webscrapped 4651 books from Amazon to grab the prices and the format of the books (hardcover and paperback).
 We used the undetected Chrome Driver and we divided the samples in several lists that we ran in different computers.
 Cleaning for the web scraping: we droped all the rows who didn't have any price on paperback and hardcover. 
+
+# How to use our files?
+1) Go to Kaggle and download the all dataset. Link here:  https://www.kaggle.com/datasets/bahramjannesarr/goodreads-book-datasets-10m 
+2) Run them on the file in those GitHub folders: Datasets > Goodreads > Kaggle_import__file.ipynb
+3) Check the EDA and run this file: JH_EDA_Kaggle, FC_EDA_Final.ipynb
+4) Do the web scraping, meaning
+> First go to the web scraping folder and run this script that is inside this folder: 0.ISBN lists to scrape 
+> Go to the 2nd folder (1.ISBN webscrap results) and run the script
+> Go to the 3nd folder (2.Final scraped result) and run the script
+5) Do the EDA for the webscraping: EDA_Webscraping.ipynb
+
