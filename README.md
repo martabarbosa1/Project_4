@@ -19,7 +19,7 @@ We decided to just work on the books with more than 500 votes to avoid the books
 
 3) Statistical analysis 
 - 1st analysis : an independant test for the price before 2008 and after 2008. Result: We didn't reject the null hypothesis.
-- 2nd analysis : an independant test for 
+- 2nd analysis : an independant test regarding the price of the books with good and bad rating. Result: We didn't reject the null hypothesis.
 
 # GitHub folders - Description 
 TO WRITE 
