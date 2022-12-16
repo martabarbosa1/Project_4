@@ -43,12 +43,11 @@ Cleaning of Kaggle_2_goodreads by steps:
 4) Drop rows from 'Authors'=="Anonymous" or "Unknown"
 
 Then we create a new dataset with this first clean called "Clean_data.csv".
-The second cleaning took place, and were made the follow steps in this last file:
+The second cleaning (clean_data2.csv) took place, and were made the follow steps in this last file:
 1) Dropna from 'PagesNumber'
 2) Drop columns 'Unnamed: 0.1', 'Unnamed: 0', 'Id', 'pagesNumber'
  
 # Web Scraping explanation 
 We webscrapped 4651 books from Amazon to grab the prices and the format of the books (hardcover and paperback).
 We used the undetected Chrome Driver and we divided the samples in several lists that we ran in different computers.
-
- 
+Cleaning for the web scraping: we droped all the rows who didn't have any price on paperback and hardcover. 
