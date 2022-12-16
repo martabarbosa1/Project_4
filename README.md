@@ -4,7 +4,7 @@
 We want to make people read more. That is why our webscraping project is about data on books.
 First, we used the dataset of GoodReads, the world's largest site for readers and book recommendations:https://www.kaggle.com/datasets/bahramjannesarr/goodreads-book-datasets-10m 
 The prices and the format of the books were missing, that is why we webscrapped Amazon to get more valuable information.
-We decided to just work on the books with more than 500 votes to avoid the books with 1 vote and 5 stars. 
+We decided to just work on the books with more than 500 votes to avoid the books with 1 vote and 5 stars, so non-representative. 
 
 # Deliverables 
 1) Insights with:
