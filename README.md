@@ -57,8 +57,8 @@ Cleaning for the web scraping: we droped all the rows who didn't have any price 
 2) Run them on the file in those GitHub folders: Datasets > Goodreads > Kaggle_import__file.ipynb
 3) Check the EDA and run this file: JH_EDA_Kaggle, FC_EDA_Final.ipynb
 4) Do the web scraping, meaning
-> First go to the web scraping folder and run this script that is inside this folder: 0.ISBN lists to scrape 
-> Go to the 2nd folder (1.ISBN webscrap results) and run the script
-> Go to the 3nd folder (2.Final scraped result) and run the script
+- First go to the web scraping folder and run this script that is inside this folder: 0.ISBN lists to scrape 
+- Go to the 2nd folder (1.ISBN webscrap results) and run the script
+- Go to the 3nd folder (2.Final scraped result) and run the script
 5) Do the EDA for the webscraping: EDA_Webscraping.ipynb
 
